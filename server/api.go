@@ -16,7 +16,7 @@ func (a *Api) Start() error {
 
 	r := gin.Default()
 
-	r.POST("/mock/login", a.login)
+	r.POST("/mock/login", a.Login)
 
 	return r.Run(a.listenAddr)
 }

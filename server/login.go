@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func (a *Api) login(c *gin.Context) {
+func (a *Api) Login(c *gin.Context) {
 
 	requestBody := loginRequest{}
 
